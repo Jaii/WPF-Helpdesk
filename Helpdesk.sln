@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpdesk.WPFUI", "Helpdesk.WPFUI.csproj", "{FE703061-9CA9-4E74-A868-7619B0836EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpdesk.Test", "Helpdesk.Test\Helpdesk.Test.csproj", "{3187FC04-77C1-4F6A-B061-68A1E9F0345F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpdesk.Utilities", "Helpdesk.Utilities\Helpdesk.Utilities.csproj", "{7FAE1A1E-7F3A-4A3E-B12F-864925947E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpdesk.Linq", "Helpdesk.Linq\Helpdesk.Linq.csproj", "{02918009-7B0E-4BC2-B87A-712146456CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpdesk.BL", "Helpdesk.BL\Helpdesk.BL.csproj", "{6FEBBEEE-1FC4-4091-A251-BD520EB7E805}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://hablewitz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Helpdesk.WPFUI.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = Helpdesk.Test\\Helpdesk.Test.csproj
+		SccProjectName2 = Helpdesk.Test
+		SccLocalPath2 = Helpdesk.Test
+		SccProjectUniqueName3 = Helpdesk.Utilities\\Helpdesk.Utilities.csproj
+		SccProjectName3 = Helpdesk.Utilities
+		SccLocalPath3 = Helpdesk.Utilities
+		SccProjectUniqueName4 = Helpdesk.BL\\Helpdesk.BL.csproj
+		SccProjectName4 = Helpdesk.BL
+		SccLocalPath4 = Helpdesk.BL
+		SccProjectUniqueName5 = Helpdesk.Linq\\Helpdesk.Linq.csproj
+		SccProjectName5 = Helpdesk.Linq
+		SccLocalPath5 = Helpdesk.Linq
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE703061-9CA9-4E74-A868-7619B0836EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE703061-9CA9-4E74-A868-7619B0836EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE703061-9CA9-4E74-A868-7619B0836EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE703061-9CA9-4E74-A868-7619B0836EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3187FC04-77C1-4F6A-B061-68A1E9F0345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3187FC04-77C1-4F6A-B061-68A1E9F0345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3187FC04-77C1-4F6A-B061-68A1E9F0345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3187FC04-77C1-4F6A-B061-68A1E9F0345F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAE1A1E-7F3A-4A3E-B12F-864925947E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAE1A1E-7F3A-4A3E-B12F-864925947E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAE1A1E-7F3A-4A3E-B12F-864925947E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAE1A1E-7F3A-4A3E-B12F-864925947E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02918009-7B0E-4BC2-B87A-712146456CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02918009-7B0E-4BC2-B87A-712146456CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02918009-7B0E-4BC2-B87A-712146456CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02918009-7B0E-4BC2-B87A-712146456CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FEBBEEE-1FC4-4091-A251-BD520EB7E805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEBBEEE-1FC4-4091-A251-BD520EB7E805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEBBEEE-1FC4-4091-A251-BD520EB7E805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEBBEEE-1FC4-4091-A251-BD520EB7E805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

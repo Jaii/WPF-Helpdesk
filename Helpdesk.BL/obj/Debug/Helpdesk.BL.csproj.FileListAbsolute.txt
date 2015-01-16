@@ -1,0 +1,11 @@
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\Helpdesk.BL.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\Helpdesk.BL.pdb
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\Helpdesk.Linq.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\Helpdesk.Utilities.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\log4net.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\Helpdesk.Linq.pdb
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\Helpdesk.Utilities.pdb
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\bin\Debug\log4net.xml
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\obj\Debug\Helpdesk.BL.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\obj\Debug\Helpdesk.BL.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.BL\obj\Debug\Helpdesk.BL.pdb

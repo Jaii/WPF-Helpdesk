@@ -1,0 +1,28 @@
+﻿<Window x:Class="Helpdesk.NewTicket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewTicket" Height="521.062" Width="596.907">
+    <Grid Margin="2,0,-2,0">
+        <Label Content="Customer Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Last Contacted" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="103" FontSize="14"/>
+        <Label Content="Notes" HorizontalAlignment="Left" Margin="335,13,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="txtNotes" HorizontalAlignment="Left" Height="217" Margin="217,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="16,282,0,0" VerticalAlignment="Top" Width="103" FontSize="14"/>
+        <ComboBox x:Name="cboStatuses" HorizontalAlignment="Left" Margin="16,316,0,0" VerticalAlignment="Top" Width="159" DropDownClosed="UpdateCompletedDate" />
+        <Label Content="Ticket Created By" HorizontalAlignment="Left" Margin="16,356,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <ComboBox x:Name="cboEmployee" HorizontalAlignment="Left" Margin="16,390,0,0" VerticalAlignment="Top" Width="159" SelectionChanged="cboEmployee_SelectionChanged"/>
+        <Label Content="Assigned To Agent" HorizontalAlignment="Left" Margin="374,282,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <ComboBox x:Name="cboAgent" HorizontalAlignment="Left" Margin="374,316,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label Content="Department" HorizontalAlignment="Left" Margin="192,282,0,0" VerticalAlignment="Top" Width="167" FontSize="14"/>
+        <ComboBox x:Name="cboDept" HorizontalAlignment="Left" Margin="192,316,0,0" VerticalAlignment="Top" Width="167" SelectionChanged="cboDept_SelectionChanged"/>
+        <Calendar x:Name="calLastContacted" HorizontalAlignment="Left" Margin="16,96,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date Created" HorizontalAlignment="Left" Margin="206,356,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <Label x:Name="lblDateCreated" Content="" HorizontalAlignment="Left" Margin="206,383,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <Label Content="Date Completed" HorizontalAlignment="Left" Margin="362,356,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <Label x:Name="lblDateCompleted" Content="" HorizontalAlignment="Left" Margin="362,383,0,0" VerticalAlignment="Top" Width="132" FontSize="14"/>
+        <Button x:Name="btnSaveTicket" Content="Save Ticket" HorizontalAlignment="Left" Margin="245,417,0,0" VerticalAlignment="Top" Width="75" Click="btnSaveTicket_Click"/>
+        <ComboBox x:Name="cboCustomers" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="185" IsEditable="True"/>
+        <Label x:Name="lblSuccessMessage" Content="" HorizontalAlignment="Left" Margin="262,441,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.105,0" Foreground="#FF0A7000"/>
+
+    </Grid>
+</Window>

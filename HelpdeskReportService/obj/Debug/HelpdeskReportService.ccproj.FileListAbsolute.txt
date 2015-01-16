@@ -1,0 +1,2 @@
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\HelpdeskReportService\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\HelpdeskReportService\bin\Debug\ServiceDefinition.csdef

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="helpdesk" Class="TicketsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=eg972d4yuj.database.windows.net,1433;Initial Catalog=helpdesk;User ID=android2221" SettingsObjectName="Helpdesk.Linq.Properties.Settings" SettingsPropertyName="helpdeskConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblCustomers" Member="tblCustomers">
+    <Type Name="tblCustomer">
+      <Column Name="custID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="custName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblCustomer_tblTicket" Member="tblTickets" ThisKey="custID" OtherKey="custID" Type="tblTicket" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblTickets" Member="tblTickets">
+    <Type Name="tblTicket">
+      <Column Name="tixID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tixNotes" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="tixDateCreated" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="tixAssignedTo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tixDateCompleted" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tixLastContacted" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="custID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="empSSN" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="deptID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="statusID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="tblCustomer_tblTicket" Member="tblCustomer" ThisKey="custID" OtherKey="custID" Type="tblCustomer" IsForeignKey="true" />
+      <Association Name="tblDepartment_tblTicket" Member="tblDepartment" ThisKey="deptID" OtherKey="deptID" Type="tblDepartment" IsForeignKey="true" />
+      <Association Name="tblEmployee_tblTicket" Member="tblEmployee" ThisKey="empSSN" OtherKey="empSSN" Type="tblEmployee" IsForeignKey="true" />
+      <Association Name="tblStatuses_tblTicket" Member="tblStatuses" ThisKey="statusID" OtherKey="statusID" Type="tblStatuses" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDepartments" Member="tblDepartments">
+    <Type Name="tblDepartment">
+      <Column Name="deptID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="deptDescription" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="tblDepartment_tblTicket" Member="tblTickets" ThisKey="deptID" OtherKey="deptID" Type="tblTicket" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmployees" Member="tblEmployees">
+    <Type Name="tblEmployee">
+      <Column Name="empSSN" Type="System.String" DbType="VarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="empName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="empDept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="tblEmployee_tblTicket" Member="tblTickets" ThisKey="empSSN" OtherKey="empSSN" Type="tblTicket" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblStatuses" Member="tblStatuses">
+    <Type Name="tblStatuses">
+      <Column Name="statusID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="statusName" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="statusDescription" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Association Name="tblStatuses_tblTicket" Member="tblTickets" ThisKey="statusID" OtherKey="statusID" Type="tblTicket" />
+    </Type>
+  </Table>
+  <Function Name="dbo.GetEverything" Method="GetEverything">
+    <ElementType Name="GetEverythingResult">
+      <Column Name="tixID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="tixNotes" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="tixDateCreated" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="tixAssignedTo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tixDateCompleted" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tixLastContacted" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="custID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="empSSN" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="deptID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="statusID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="custID1" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="custName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="deptID1" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="deptDescription" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="empSSN1" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="empName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="empDept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

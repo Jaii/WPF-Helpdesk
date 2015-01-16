@@ -1,0 +1,6 @@
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Utilities\bin\Release\Helpdesk.Utilities.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Utilities\bin\Release\Helpdesk.Utilities.pdb
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Utilities\bin\Release\log4net.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Utilities\bin\Release\log4net.xml
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Utilities\obj\Release\Helpdesk.Utilities.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Utilities\obj\Release\Helpdesk.Utilities.pdb

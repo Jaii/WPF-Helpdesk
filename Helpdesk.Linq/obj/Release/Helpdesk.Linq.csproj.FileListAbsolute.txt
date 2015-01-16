@@ -1,0 +1,7 @@
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\bin\Release\Helpdesk.Linq.dll.config
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\bin\Release\Helpdesk.Linq.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\bin\Release\Helpdesk.Linq.pdb
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\bin\Release\log4net.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\bin\Release\log4net.xml
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\obj\Release\Helpdesk.Linq.dll
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\Helpdesk.Linq\obj\Release\Helpdesk.Linq.pdb

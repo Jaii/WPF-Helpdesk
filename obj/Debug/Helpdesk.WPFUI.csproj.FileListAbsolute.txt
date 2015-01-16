@@ -1,0 +1,12 @@
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\Helpdesk.WPFUI.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\MainWindow.baml
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\NewTicket.baml
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\ViewTicketWindow.baml
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\MainWindow.g.cs
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\NewTicket.g.cs
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\ViewTicketWindow.g.cs
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\App.g.cs
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\Helpdesk_MarkupCompile.cache
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\Helpdesk.g.resources
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\Helpdesk.Properties.Resources.resources
+C:\Users\Andy\Google Drive\School\Advanced Programming\Helpdesk\Helpdesk\obj\Debug\Helpdesk.WPFUI.csproj.GenerateResource.Cache
